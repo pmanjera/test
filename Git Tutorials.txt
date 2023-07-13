@@ -1,0 +1,5 @@
+Git Tutorials
+
+create a local git repository (navigate to an empty folder)
+--> cd .. (pull back one step from the current folder)
+--> cd c/kompas/git_test (this will navigate to the folder git_test stored in the kompas folder in c drive)
