@@ -3,3 +3,25 @@ Git Tutorials
 create a local git repository (navigate to an empty folder)
 --> cd .. (pull back one step from the current folder)
 --> cd c/kompas/git_test (this will navigate to the folder git_test stored in the kompas folder in c drive)
+
+Initialize a blan git repository
+--> git init (this will initialize a folder repository that will allow one to add, commit, push from other other repositories)
+--> .git folder could be hidden so activate hidden folders in windows. 
+
+Checking the status of the repository'
+--> git status
+
+Adding files to the repository using touch.
+--> touch app.py
+--> touch readme.txt
+At these stage, note that these are not yet part of the repository as we need to run a couple of commands to add them to the repo. 
+--> git add . (this adds all the files in our directory to the repository)
+
+Areas for the repository
+--> Stagging & the index area (This is a temporary place where we add files before we commit them)
+--> Actual repo that stores the different versions of the code (committing files makes a permanant change to the repository)
+
+Commit files to the repository
+--> git commit -m "first change" 
+
+The reason for adding and commtting and giving them different names is because the repo is going to store different versions of the code hence this will enable one to look up when you changed a file and what you actually changed. This also allows one to actually revert back to other version in case the current one is broken. 
